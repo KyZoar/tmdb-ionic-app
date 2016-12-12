@@ -10,7 +10,7 @@
       return deferred.promise;
     });
 
-    service.stopListening = cordovaUtils.whenRead(function () {
+    service.stopListening = cordovaUtils.whenReady(function () {
       $window.shake.stopWatch();
       return true;
     });
