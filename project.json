@@ -17,7 +17,7 @@
   "apps": {
     "default": {
       "name": "TMDB App .|..",
-      "id": "super.xd.id",
+      "id": "denis.lachartre",
       "constants": {
         "I18N": {
           "LOCALES": ["en-US", "fr-FR"],
