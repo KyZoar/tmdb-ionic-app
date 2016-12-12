@@ -31,7 +31,7 @@
         language: i18nService.getLocale(),
         api_key: API_KEY
       }).then(function (data) {
-        return _.smaple(data.results) || $q.reject();
+        return _.sample(data.results) || $q.reject();
       });
     };
 
